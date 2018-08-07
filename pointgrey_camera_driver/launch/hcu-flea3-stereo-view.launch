@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="image_view" type="image_view" name="cam_left_view" args="image:=/camera_left/image_raw"/>
+  <node pkg="image_view" type="image_view" name="cam_right_view" args="image:=/camera_right/image_raw"/>
+</launch>
